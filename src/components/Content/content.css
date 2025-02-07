@@ -1,0 +1,121 @@
+.content {
+  line-height: 1.8;
+  color: var(--title);
+  padding: 20px;
+  border-radius: 10px;
+  direction: rtl;
+  margin-top: 50px;
+  text-align: right;
+}
+
+.content h1, h2, h3, h4, h5, h6 {
+  color: var(--white);
+  margin-block: 2rem;
+}
+
+.content ul, ol, li {
+  color: var(--white);
+  margin-right: 30px;
+  padding-right: 10px;
+  margin-block: 1rem;
+}
+
+.content h1 {
+  font-size: 2.3rem;
+  border-bottom: 2px solid var(--border);
+  margin-bottom: 100px;
+  padding-bottom: 10px;
+}
+
+.content h2 {
+  font-size: 1.75rem;
+}
+
+.content h3 {
+  font-size: 1.5rem;
+}
+
+.content p {
+  color: var(--p-color);
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.content ul {
+  list-style-type: disc;
+  lighting-color: var(--blue);
+}
+
+.content ol {
+  list-style-type: decimal;
+  margin-right: 20px;
+}
+
+.content hr {
+  color: var(--border);
+  margin-block: 50px;
+}
+
+.content a {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.content a:hover {
+  text-decoration: underline;
+}
+
+.content blockquote {
+  font-style: italic;
+  color: var(--subtitle);
+  border-right: 4px solid var(--blue);
+  padding-right: 20px;
+  margin: 15px 0;
+  background: var(--bgHeader);
+  border-radius: 5px;
+}
+
+.content pre {
+  direction: ltr;
+  text-align: left;
+  background-color: var(--border);
+  color: var(--title);
+  padding: 15px;
+  margin-block: 2rem;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+.content code {
+  font-family: "Courier New", monospace;
+  background-color: var(--primary);
+  color: var(--title);
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+.content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 15px 0;
+  direction: rtl;
+}
+
+.content th,
+.content td {
+  border: 1px solid var(--border);
+  padding: 10px;
+  text-align: right;
+}
+
+.content th {
+  background-color: var(--blue);
+  color: white;
+}
+
+.content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin: 10px 0;
+}

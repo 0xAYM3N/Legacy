@@ -1,0 +1,35 @@
+footer.flex {
+  justify-content: space-between;
+  padding-bottom: 1.9rem;
+}
+
+footer .flex {
+  display: flex;
+  gap: 2rem;
+}
+
+footer.flex a {
+  color: var(--subtitle);
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+
+footer.flex a:hover {
+  color: var(--blue);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+footer .icons {
+  display: flex;
+  font-size: 20px;
+  color: var(--white);
+  gap: 20px;
+}
+
+@media (max-width: 800px) {
+  footer.flex {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}

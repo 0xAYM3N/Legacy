@@ -1,0 +1,73 @@
+/* ========================
+ table of contents
+===========================
+1. Left Section ==> Buttons
+2. Right Section ==> Card
+3- Responsive Design (media query)*/
+
+main.flex {
+  direction: rtl;
+  gap: 2.64rem;
+  align-items: start;
+  margin-block: 50px;
+}
+
+/* ===============================
+   2. Right Section ==> Card
+================================== */
+
+main section.right-section.flex {
+  /* flex-grow: 1; */
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 2rem;
+}
+
+.card {
+  border: 1px solid rgba(93, 188, 252, 0.3);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  transition: 0.3s;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0.05)
+  );
+}
+
+.card:hover {
+  border: 1px solid var(--blue);
+  scale: 1.01;
+  cursor: pointer;
+}
+
+.card img {
+  border-radius: 5px;
+}
+
+.card .box {
+  padding: 1rem 0.4rem;
+}
+
+.card .box .title {
+  color: var(--white);
+}
+
+.card .box .sub-title {
+  color: var(--p-color);
+  font-size: 0.8rem;
+  line-height: 1.4rem;
+  margin-top: 0.7rem;
+  margin-bottom: 1.1rem;
+}
+
+/* =====================================
+  3- Responsive Design (media query)
+======================================== */
+
+@media (max-width: 600px) {
+  main.flex {
+    gap: 2.64rem;
+    align-items: center;
+  }
+}
