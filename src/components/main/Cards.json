@@ -1,0 +1,16 @@
+[
+  {
+    "path": "first-post.md",
+    "mdPath": "first-post.md",
+    "image": "/1.jpg",
+    "title": "مرحبا بك عزيزي القارئ",
+    "description": "هذا هو المحتوى"
+  },
+  {
+    "path": "second-post.md",
+    "mdPath": "second-post.md",
+    "image": "/1.jpg",
+    "title": "مقال جديد",
+    "description": "هذا هو المحتوى الجديد"
+  }
+]

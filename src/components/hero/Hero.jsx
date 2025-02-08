@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom";
 import "./hero.css";
+
 const Hero = () => {
   return (
     <section className="hero flex">
@@ -17,9 +19,16 @@ const Hero = () => {
         </p>
 
         <div className="all-icons flex">
-          <div className="icon icon-instagram"></div>
-          <div className="icon icon-github"></div>
-          <div className="icon icon-twitter"></div>
+          <Link target="_blank" to="https://instagram.com/a.aymen_dev">
+            <div className="icon icon-instagram"></div>
+          </Link>
+          <Link target="_blank" to="https://github.com/aymenprogrammer">
+            <div className="icon icon-github"></div>
+          </Link>
+          <Link target="_blank" to="https://x.com/aymen_dev">
+            <div className="icon icon-twitter">
+            </div>
+          </Link>
         </div>
       </div>
 

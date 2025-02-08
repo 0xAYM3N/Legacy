@@ -57,7 +57,7 @@ section.hero .all-icons {
 }
 
 section.hero .all-icons .icon {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   cursor: pointer;
   transition: 0.3s;
   &:hover {

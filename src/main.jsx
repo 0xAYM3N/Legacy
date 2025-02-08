@@ -6,6 +6,7 @@ import Header from "./components/header/Header.jsx";
 import Main from "./components/main/Main.jsx";
 import Footer from "./components/footer/Footer.jsx";
 import Content from "./components/Content/Content.jsx";
+import NotFoundPage from "./components/NotFoundPage/NotFoundPage.jsx";
 import "./index.css";
 
 createRoot(document.getElementById("root")).render(
@@ -29,7 +30,7 @@ createRoot(document.getElementById("root")).render(
           }
         />
         <Route
-          path="/Content"
+          path="/content/:path"
           element={
             <div id="up" className="container">
               <Header />
@@ -56,6 +57,7 @@ createRoot(document.getElementById("root")).render(
             </div>
           }
         />
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
